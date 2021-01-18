@@ -1,0 +1,5 @@
+oc new-project demo10
+oc new-app httpd
+oc get all
+oc expose svc/httpd
+oc get route
